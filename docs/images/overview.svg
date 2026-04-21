@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="WG Interface Traffic Control overview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1a2b"/>
+      <stop offset="100%" stop-color="#05080f"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101a28"/>
+      <stop offset="100%" stop-color="#0a111b"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="520" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="464" rx="18" fill="#070c14" stroke="#20304a" stroke-width="2"/>
+  <text x="56" y="78" fill="#e8eefb" font-size="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">GWHUB-WG Traffic control</text>
+  <text x="56" y="112" fill="#92a3bf" font-size="20" font-family="Inter,Segoe UI,Arial,sans-serif">WireGuard peer monitoring dashboard</text>
+
+  <rect x="56" y="142" width="260" height="80" rx="12" fill="url(#card)" stroke="#243753"/>
+  <rect x="334" y="142" width="260" height="80" rx="12" fill="url(#card)" stroke="#243753"/>
+  <rect x="612" y="142" width="260" height="80" rx="12" fill="url(#card)" stroke="#243753"/>
+  <rect x="890" y="142" width="260" height="80" rx="12" fill="url(#card)" stroke="#243753"/>
+
+  <text x="80" y="174" fill="#93a5c0" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">CLIENT</text>
+  <text x="80" y="206" fill="#eaf1ff" font-size="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="760">10</text>
+
+  <text x="358" y="174" fill="#93a5c0" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">ACTIVE</text>
+  <text x="358" y="206" fill="#eaf1ff" font-size="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="760">6</text>
+
+  <text x="636" y="174" fill="#93a5c0" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">DOWNLOAD LIVE</text>
+  <text x="636" y="206" fill="#56beff" font-size="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="760">0 B/s</text>
+
+  <text x="914" y="174" fill="#93a5c0" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">UPLOAD LIVE</text>
+  <text x="914" y="206" fill="#57d67c" font-size="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="760">0 B/s</text>
+
+  <rect x="56" y="244" width="1094" height="220" rx="14" fill="#090f18" stroke="#22324d"/>
+  <text x="84" y="282" fill="#91a3bf" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">CLIENT</text>
+  <text x="245" y="282" fill="#91a3bf" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">IP</text>
+  <text x="365" y="282" fill="#91a3bf" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">DOWNLOAD</text>
+  <text x="550" y="282" fill="#91a3bf" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">UPLOAD</text>
+  <text x="700" y="282" fill="#91a3bf" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">PEAK DW/UP</text>
+  <text x="1080" y="282" fill="#91a3bf" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">STATUS</text>
+
+  <line x1="76" y1="300" x2="1128" y2="300" stroke="#22324d"/>
+  <line x1="76" y1="338" x2="1128" y2="338" stroke="#1a283e"/>
+  <line x1="76" y1="376" x2="1128" y2="376" stroke="#1a283e"/>
+
+  <circle cx="86" cy="326" r="5" fill="#55d87f"/>
+  <text x="104" y="331" fill="#e9f0ff" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="650">ClientTV</text>
+  <text x="245" y="331" fill="#d6e0f3" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">client-ip</text>
+  <text x="365" y="331" fill="#56beff" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">0 B/s</text>
+  <text x="550" y="331" fill="#57d67c" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">0 B/s</text>
+  <text x="700" y="331" fill="#f1b23e" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">0 B/s / 0 B/s</text>
+  <rect x="1018" y="306" width="110" height="34" rx="16" fill="#153626" stroke="#2f9e5b"/>
+  <text x="1073" y="329" fill="#e9fff0" font-size="21" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="650" text-anchor="middle">Active</text>
+</svg>

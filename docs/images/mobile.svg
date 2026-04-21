@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="860" viewBox="0 0 420 860" role="img" aria-label="WG Interface Traffic Control mobile view">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#112038"/>
+      <stop offset="100%" stop-color="#050910"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121d2d"/>
+      <stop offset="100%" stop-color="#0a111b"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="420" height="860" fill="url(#bg)"/>
+  <rect x="16" y="16" width="388" height="828" rx="26" fill="#070d15" stroke="#223450" stroke-width="2"/>
+  <text x="38" y="58" fill="#ecf2ff" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">GWHUB-WG Traffic control</text>
+  <text x="38" y="82" fill="#97a8c4" font-size="11" font-family="Inter,Segoe UI,Arial,sans-serif">Mobile cards</text>
+
+  <rect x="28" y="100" width="364" height="66" rx="12" fill="url(#card)" stroke="#243a5a"/>
+  <text x="44" y="126" fill="#93a5c0" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">CLIENT</text>
+  <text x="44" y="150" fill="#ebf2ff" font-size="24" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="760">10</text>
+  <text x="204" y="126" fill="#93a5c0" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">ACTIVE</text>
+  <text x="204" y="150" fill="#ebf2ff" font-size="24" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="760">6</text>
+  <text x="292" y="126" fill="#93a5c0" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">RX/TX</text>
+  <text x="292" y="150" fill="#57d67c" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0 / 0 B/s</text>
+
+  <rect x="28" y="182" width="364" height="136" rx="12" fill="url(#card)" stroke="#243a5a"/>
+  <circle cx="44" cy="205" r="4" fill="#56d981"/>
+  <text x="56" y="210" fill="#edf3ff" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="650">ClientTV</text>
+  <text x="330" y="210" fill="#9eb2cf" font-size="11" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">client-ip</text>
+  <text x="44" y="236" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">DOWNLOAD</text>
+  <text x="44" y="254" fill="#56beff" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0 B/s</text>
+  <text x="172" y="236" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">UPLOAD</text>
+  <text x="172" y="254" fill="#57d67c" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0 B/s</text>
+  <text x="288" y="236" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">PEAK</text>
+  <text x="288" y="254" fill="#f1b23e" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0/0 B/s</text>
+  <text x="44" y="282" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">ENDPOINT</text>
+  <text x="44" y="300" fill="#d9e4f8" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif">endpoint-host:port</text>
+  <rect x="286" y="282" width="94" height="28" rx="14" fill="#163a2a" stroke="#2fa25f"/>
+  <text x="333" y="301" fill="#ebfff2" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="650" text-anchor="middle">Active</text>
+
+  <rect x="28" y="332" width="364" height="136" rx="12" fill="url(#card)" stroke="#243a5a"/>
+  <circle cx="44" cy="355" r="4" fill="#f1b23e"/>
+  <text x="56" y="360" fill="#edf3ff" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="650">MAXPC</text>
+  <text x="330" y="360" fill="#9eb2cf" font-size="11" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">client-ip</text>
+  <text x="44" y="386" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">DOWNLOAD</text>
+  <text x="44" y="404" fill="#56beff" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0 B/s</text>
+  <text x="172" y="386" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">UPLOAD</text>
+  <text x="172" y="404" fill="#57d67c" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0 B/s</text>
+  <text x="288" y="386" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">PEAK</text>
+  <text x="288" y="404" fill="#f1b23e" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">0/0 B/s</text>
+  <text x="44" y="432" fill="#8fa2be" font-size="10" font-family="Inter,Segoe UI,Arial,sans-serif">ENDPOINT</text>
+  <text x="44" y="450" fill="#d9e4f8" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif">endpoint-host:port</text>
+  <rect x="286" y="432" width="94" height="28" rx="14" fill="#3c2d12" stroke="#a77a30"/>
+  <text x="333" y="451" fill="#fff6e6" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="650" text-anchor="middle">Idle</text>
+
+  <text x="210" y="832" fill="#6e839f" font-size="11" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Responsive mobile card layout</text>
+</svg>
